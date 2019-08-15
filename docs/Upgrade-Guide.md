@@ -268,7 +268,7 @@ Now you can do:
 
 ```tsx
 <FormattedMessage
-  defaultMessage="To buy a shoe, <a>visit our website</a> and <cta>eat a shoe</cta>"
+  defaultMessage="To buy a shoe, <link>visit our website</link> and <cta>eat a shoe</cta>"
   values={{
     link: msg => (
       <a class="external_link" target="_blank" href="https://www.shoe.com/">
